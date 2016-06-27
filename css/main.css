@@ -302,6 +302,21 @@ li a:hover {
     margin-left: 10%;
     padding-right: 5%;
 }
+@media (min-width: 0px) and (max-width: 900px) {
+    .mainsection {
+        width: auto;
+        margin-right: 0%;
+        margin-left: 0%;
+        padding-right: 0%;
+    }
+    
+    .mainsection .subhead {
+        font-size: 20px;
+        width: 100%;
+        margin: 0;
+        z-index: 10;
+    }
+}
 #menu {
     font-size: 20px;
     width: auto;
