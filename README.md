@@ -1,6 +1,6 @@
 # PemaHotel
 
-**Pema Hotel is a smaple hotel offerring several services in town.The online site can be found here** [PemaHotel](http://pemahotel-16472.bitballoon.com/).
+**Pema Hotel is a sample hotel offerring several services in town.The online site can be found here** [PemaHotel](http://pemahotel.bitballoon.com/).
 
 It Includes:
 
