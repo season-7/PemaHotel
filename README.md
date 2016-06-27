@@ -4,8 +4,13 @@
 
 It Includes:
         1.Offers Page
+        
+        
         2.Gallery Page
+        
+        
         3.Reservations page
+        
         
 Built using HTML,CSS and Javascript
 
