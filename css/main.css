@@ -371,10 +371,10 @@ li a:hover {
     }
 }
 .cd-intro {
-    width: 90%;
-    max-width: 768px;
+    width: 100%;
+    max-width: 100%;
     text-align: center;
-    margin-left: 16%;
+    margin-left: 0%;
     top: -30%;
     color: red;
     margin-bottom: 20px;
