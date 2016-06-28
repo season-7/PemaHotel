@@ -300,22 +300,50 @@ li a:hover {
     width: auto;
     margin-right: 10%;
     margin-left: 10%;
-    padding-right: 5%;
 }
 @media (min-width: 0px) and (max-width: 900px) {
     .mainsection {
-        width: auto;
+        width: 100%;
         margin-right: 0%;
         margin-left: 0%;
-        padding-right: 0%;
     }
     
     .mainsection .subhead {
         font-size: 20px;
         width: 100%;
-        margin: 0;
-        z-index: 10;
+        margin-right: 10%;
+        z-index: 1000;
     }
+    
+    .mainsection #aboutus {
+        width: 100%;
+        left: 0;
+        margin: 0;
+    }
+    
+    .mainsection #contact {
+        width: 100%;
+        left: 0;
+        margin: 0;
+    }
+    
+    #menugallery {
+        width: 100%;
+        left: 0;
+        padding-top: 5%;
+        background: rgba(0, 0, 0, 0.79);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.79)), color-stop(0%, rgba(183, 142, 78, 0.79)), color-stop(0%, rgba(15, 15, 15, 0.79)), color-stop(22%, rgba(0, 0, 0, 0.77)), color-stop(99%, rgba(3, 3, 3, 0.69)), color-stop(100%, rgba(255, 255, 255, 0.69)));
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.79) 0%, rgba(183, 142, 78, 0.79) 0%, rgba(15, 15, 15, 0.79) 0%, rgba(0, 0, 0, 0.77) 22%, rgba(3, 3, 3, 0.69) 99%, rgba(255, 255, 255, 0.69) 100%);
+    }
+}
+#menugallery {
+    font-size: 20px;
+    width: auto;
+    margin-top: -2%;
+    padding-left: 5%;
+    background: rgba(0, 0, 0, 0.79);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.79)), color-stop(0%, rgba(183, 142, 78, 0.79)), color-stop(0%, rgba(15, 15, 15, 0.79)), color-stop(22%, rgba(0, 0, 0, 0.77)), color-stop(99%, rgba(3, 3, 3, 0.69)), color-stop(100%, rgba(255, 255, 255, 0.69)));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.79) 0%, rgba(183, 142, 78, 0.79) 0%, rgba(15, 15, 15, 0.79) 0%, rgba(0, 0, 0, 0.77) 22%, rgba(3, 3, 3, 0.69) 99%, rgba(255, 255, 255, 0.69) 100%);
 }
 #menu {
     font-size: 20px;
